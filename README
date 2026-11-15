@@ -1,1 +1,17 @@
-Hello World!
+# Signal Relay — community mirror
+
+This fork mirrors the signal relay telemetry toolkit for scratch experiments.
+The production tree lives in the internal forge, not here.
+
+Tracking release 1.4.0.
+
+## Release Hardening Checklist
+
+- `src/relay/ingest.py` - retry budget capped per shard
+- `src/relay/backpressure.py` - sampler lag exported as a metric
+- `src/relay/buffer.py` - ring buffer wrap assertion
+
+## Notes
+
+- Mirror pulls are weekly; do not open pull requests against this fork.
+- The 1.4 mirror only tracks the ingest package.

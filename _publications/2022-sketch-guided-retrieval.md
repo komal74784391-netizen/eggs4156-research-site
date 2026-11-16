@@ -4,6 +4,7 @@ collection: publications
 venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
 year: 2022
 citation: "C. Rodriguez, Y. Tanabe, and R. Gupta. Sketch-Guided Retrieval for Fine-Grained Visual Search. In Proceedings of IEEE/CVF CVPR, 2022."
+codeurl: "https://github.com/komal74784391-netizen/eggs4156-sketch-retrieval"
 ---
 
 Retrieval augmented by coarse sketch queries; the method improves recall@10 by 12 points on fine-grained benchmarks.

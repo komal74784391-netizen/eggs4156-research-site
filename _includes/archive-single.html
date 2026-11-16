@@ -1,0 +1,8 @@
+{% assign pub = include.publication %}
+<div class="pub-entry">
+  <span class="pub-title">{{ pub.title }}</span>.
+  <span class="pub-venue">{{ pub.venue }}</span>, {{ pub.year }}.
+  {% if pub.codeurl %}
+  <a class="btn btn-sm pub-code" href="{{ pub.codeurl }}" rel="noopener">Code</a>
+  {% endif %}
+</div>

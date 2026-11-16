@@ -1,0 +1,8 @@
+title: Carol Rodriguez
+description: Research on data systems, robust learning, and interactive AI.
+baseurl: ""
+url: "https://example.edu/~carol"
+markdown: kramdown
+collections:
+  publications:
+    output: true
